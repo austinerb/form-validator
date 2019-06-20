@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("https://www.thebalancecareers.com/thmb/8I95j082uZT-X8RpmzL65EKtjFA=/950x0/high-angle-view-of-lower-east-side-manhattan-downtown--new-york-city--usa-640006562-5ae52a273de423003776ae2e.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 450px;
+    background-color: white;
+    margin: 50px auto 0;
+    border-radius: 5px;
+    border: 3px solid #cacaca;
+}
+
+#header {
+    padding: 20px 20px 0;
+}
+
+#header h1 {
+    color: rgb(73, 73, 73);
+    margin-bottom: 5px;
+}
+
+#header p {
+    color: rgb(128, 128, 128);
+}
+
+form {
+    padding: 20px;
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+}
+
+form input:nth-child(9) {
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    background-color: #ca5f5f;
+    margin-bottom: 0;
+}
+
+form input.disable {
+    background-color: #6b3232;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#disclaimer {
+    text-align: center;
+    padding: 0 50px 20px;
+    color: rgb(128, 128, 128);
+    font-size: 12px;
+}
+
+#disclaimer a {
+    text-decoration: none;
+    color: #ca5f5f;
+}
+
+#login {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#login a {
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.invalid {
+    border: 1px solid red;
+}

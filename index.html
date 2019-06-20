@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>Sign Up</h1>
+                <p>It's free and only takes a minute.</p>
+            </div>
+            <form action="#" name="signup">
+                <input type="text" name="first-name" placeholder="First Name">
+                <p id="first-name-msg" class="hide">This field is required</p>
+                <input type="text" name="last-name" placeholder="Last Name">
+                <p id="last-name-msg" class="hide">This field is required</p>
+                <input type="text" name="email" placeholder="Email">
+                <p id="email-msg" class="hide">Must be a valid email. e.g. guy@gmail.com</p>
+                <input type="password" name="password" placeholder="Password">
+                <p id="password-msg" class="hide">Password must be between 8 and 16 characters.</p>
+                <input type="submit" value="Submit" disabled class="disable">
+            </form>
+            <p id="disclaimer">
+                By clicking the Sign Up button, you agree to our 
+                <a href="">Terms & Conditions</a>, and 
+                <a href="">Privacy Policy.</a>
+            </p>
+        </div>
+        <p id="login">Already have an account? <a href="">Login here</a></p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
